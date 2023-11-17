@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #A1A6B4;
+    background: white;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 24px 0 24px;
+}
+body,h1,h2,h3,p,ul,li {
+    margin: 0;
+}
+.everything{
+    /* width: 1044px; */
+    padding: 48px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 32px auto 32px auto;
+    border-radius: 50px;
+    
+}
+.photo{
+    height: 600px;
+
+}
+body {
+    font-family: "Anonymous Pro", sans-serif;
+}
+main{
+    padding-bottom: auto;
+    padding-left: auto;
+    background-color:#F1F1F1;
+    display: flex;
+}
+h6{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+}
+.container_big_t{
+    width: 506px;
+    height: auto;
+}
+.parametri{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 506px;
+    font-family: Anonymous Pro;
+
+}
+.o_krossah{
+    color: var(--black, #121723);
+font-family: Anonymous Pro;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+gap: 20px;
+}
+.big_t_and_parametri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cont_parametrov{
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+    column-gap: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 24px;
+}
+.title_kross,.subtitle_kross{
+    margin-bottom: 24px;
+    font-family: Anonymous Pro;
+    font-weight: 400;
+    font-size: 48px;
+}
+.alb{
+    display: flex;
+    justify-content: end;
+}
+nav {
+    display: flex;
+}
+
+.nav-list-head {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+.nav-list-foot {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    color: #121723;
+    font-size: 20px;
+    font-weight: 700;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 32px 0;
+}
+
+.footer__logo-link {
+    max-width: 300px;
+    width: 100%;
+}
+
+footer .nav-link {
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1140px;
+    border-top: 1px solid #A1A6B4;
+}
+
+.copyright-text {
+    color: #A1A6B4;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #121723;
+}
+@media screen and (max-width: 591px){
+    .header-container{
+        flex-direction: column;
+        margin: 24px 16px;
+        column-gap: 24px;
+    }
+    .logo-link{
+        margin: 24px auto;
+        column-gap: 24px;
+    }
+    .photo{
+        width: auto;
+        height: auto;
+    }
+    .nav-list{
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: 0px 24px;
+        width: 100%;
+        display: flex;
+    }
+    .title_kross,.subtitle_kross{
+        width: auto;
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .everything{
+        width: 295px;
+        height: auto;
+        margin: 16px auto;
+    }
+    .parametri{
+        width: auto;
+        height: auto;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .big_t_and_parametri{
+        flex-direction: column;
+    }
+    .container_big_t{
+        width: auto;
+    }
+    .footer__logo-link{
+        margin: 32px auto;
+    }
+    .copyright{
+        width: 300px;
+        display: flex;
+    }
+    .footer{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
