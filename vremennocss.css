@@ -114,19 +114,12 @@ nav {
     display: flex;
 }
 
-.nav-list-head {
+.nav-list {
     display: flex;
     align-items: center;
     width: 100%;
     gap: 24px;
 }
-.nav-list-foot {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    gap: 24px;
-}
-
 .nav-item {
     display: inline;
 }
